@@ -1,6 +1,6 @@
 resource "aws_launch_template" "web_server_as" {
     name = "myproject"
-    image_id           = "ami-0ca9fb66e076a6e32"
+    image_id           = "ami-0f214d1b3d031dc53"
     instance_type = "t2.micro"
     key_name = "Linux"
     
